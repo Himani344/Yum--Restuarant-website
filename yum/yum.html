@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <title>
+            YUM
+        </title>
+        <link rel="stylesheet" href="yum.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="body">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white;">
+            <a class="navbar-brand" href="#" style="    font-size: 45px;color: rgb(204, 0, 0);
+            padding-left: 95px;   font-family: Kaushan Script, cursive;">YUM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="padding-left: 141px;">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#" style="font-size: 20px;margin-left: 140px;">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#aboutus" style="font-size: 20px;margin-left: 20px;">About Us</a>
+                <a class="nav-item nav-link" href="#" style="font-size: 20px;margin-left: 20px;">Menu</a>
+                <a class="nav-item nav-link" href="#gallery" style="font-size: 20px;margin-left: 20px;">Gallery</a>
+                <a class="nav-item nav-link" href="#contact" style="font-size: 20px;margin-left: 20px;">Contact</a>
+                
+                <a href="reserve_table.html">
+                <button class="bookb" >Book a table</button></a>
+
+                
+
+
+
+
+                
+                </div>
+              
+              </div>
+            </div>
+          </nav>
+
+
+
+          <section class="page">
+            <div class="row">
+            <div class="col-6">
+                <h4 style="padding-top: 120px;padding-left: 50px;">A place where</h4>
+                <h1 style="padding-left: 50px;">Flavours meet memories<br>and Dining becomes an art.</h1>
+            </div>
+            <div class="col-6">   <video width="500" height="440" style="border-radius: 80%;" autoplay muted loop id="myVedio">
+              <source src="bg1.mp4" type="video/mp4"> </video></div>
+            </div>
+          </section><br>
+
+
+          <section class="page" style="background-color: rgb(204, 0, 0);padding-bottom: 25px;color: white;" id="aboutus">
+               <div class="about">
+                <h5 style="text-align: center; color: white;">About Us</h5>
+                <h1 style="text-align: center; color: white;">Know more about us</h1><br>
+                <div class="row">
+                  <div class="col-6"><img class="aboutimg" src="about1.webp"><br></div>
+                  <div class="col-6" style="text-align:left;margin-top: 20px;padding-right: 20px; color: white;">
+                    Our sincer effort is to make your dining experience memorable by bringing to you centuries old Cusion to your 
+                    table. 
+                    <br><br>As a part of the Main Street hub for the food enthusiast, our sole effort is to present you with fresh food, 
+                    new savors and various robust flavors from turmeric, zeera (cumin), ginger, carom seeds and an array of unique spices
+                     which will be a treat to your palate.<br><br>
+                     For us meal time is more than food-it's about connection and sharing love.<br><br>
+  
+                     We believe in supporting other local businesses as well. Our mission is to provide you with the deepest pleasure of
+                      quality dining and exceptional service.
+                  </div>
+                </div>
+               </div>
+          </section>
+
+
+
+  
+    
+
+       
+
+
+
+
+
+<div class="parallax"></div>
+
+
+
+<section id="gallery">
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('Curries')"> Curries</button>
+    <button class="btn" onclick="filterSelection('Snacks')"> Snacks</button>
+    <button class="btn" onclick="filterSelection('Desserts')"> Desserts</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column Curries">
+      <div class="content">
+        <img src="malai.jpeg" alt="Curries" style="width:100%">
+        <h4>Malai Kofta</h4>
+       
+      </div>
+    </div>
+    <div class="column Snacks">
+      <div class="content">
+      <img src="kabab.webp" alt="Snacks" style="width:100%">
+        <h4>Hara-Bhara Kabab</h4>
+   
+      </div>
+    </div>
+    <div class="column Snacks">
+      <div class="content">
+      <img src="patatotikki.jpg" alt="Snacks" style="width:100%">
+        <h4>Tikki</h4>
+   
+      </div>
+    </div>
+    
+    <div class="column Snacks">
+      <div class="content">
+        <img src="Rajkachori.jpg" alt="Snacks" style="width:100%">
+        <h4>Rajkachori</h4>
+       
+      </div>
+    </div>
+    <div class="column Deserts">
+      <div class="content">
+      <img src="Rasmalai.jpg" alt="Desserts" style="width:100%;    margin-top: -210px;">
+        <h4>Rasmalai</h4>
+      
+      </div>
+    </div>
+    <div class="column Curries">
+      <div class="content">
+      <img src="kadi.jpg" alt="Curries" style="width:100%;margin-top: -160px;">
+        <h4>
+          Curry</h4>
+        
+      </div>
+    </div>
+  
+    <div class="column Desserts">
+      <div class="content">
+        <img src="mong.avif" alt="Desserts" style="width:100%;margin-top: -35px;">
+        <h4>Moong Halwa</h4>
+     
+      </div>
+    </div>
+    <div class="column Snacks">
+      <div class="content">
+      <img src="dhokla.jpg" alt="Snacks" style="width:100%">
+        <h4>Dhokla</h4>
+        
+      </div>
+    </div>
+    <div class="column Curries">
+      <div class="content">
+      <img src="panner.jpg" alt="Curries" style="width:100%;margin-top: -340px;">
+        <h4>Paneer Masala</h4>
+  
+      </div>
+    </div>
+  <!-- END GRID -->
+  </div>
+</section>
+
+
+
+<section id="contact" style="background-color: rgb(204, 0, 0);color: white;" class="page" >
+
+  <div class="m-1">
+    <h1>Contact us</h1>
+    <div class="fs-6 fw-light mb-2">Give you feedback.</div>
+    <form id="contact_form" name="contact_form" method="post" action="feedback.php">
+        <div class="mb-5">
+            <label for="message">Feedback</label>
+            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+        </div>
+        <div class="mb-5 row">
+            <div class="col">
+                <label>Your Name:</label>
+                <input type="text" required maxlength="50" class="form-control" id="name" name="name">
+            </div>
+            <div class="col">
+                <label for="email_addr">Your Email:</label>
+                <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                    placeholder="name@example.com">
+            </div>
+        </div>
+        <div class="d-grid">
+        <button type="submit" class="btn btn-success">Post</button>
+        </div>
+    </form>
+    </div>
+
+</section>
+
+
+      <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+//gallery filtration
+        filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+        </script>
+    </body>
+</html>
